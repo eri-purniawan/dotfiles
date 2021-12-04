@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/beach-009.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#182534",
+        "foreground": "#adbdba",
+        "cursor": "#adbdba"
+    },
+    "colors": {
+        "color0": "#182534",
+        "color1": "#94736B",
+        "color2": "#3B817C",
+        "color3": "#61847C",
+        "color4": "#A38776",
+        "color5": "#597C81",
+        "color6": "#3B8383",
+        "color7": "#adbdba",
+        "color8": "#798482",
+        "color9": "#94736B",
+        "color10": "#3B817C",
+        "color11": "#61847C",
+        "color12": "#A38776",
+        "color13": "#597C81",
+        "color14": "#3B8383",
+        "color15": "#adbdba"
+    }
+}

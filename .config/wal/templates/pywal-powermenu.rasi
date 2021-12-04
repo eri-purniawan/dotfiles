@@ -1,0 +1,150 @@
+* {{
+    active-background: {color2};
+    active-foreground: @foreground;
+    normal-background: @background;
+    normal-foreground: @foreground;
+    urgent-background: {color1};
+    urgent-foreground: @foreground;
+
+    alternate-active-background: @background;
+    alternate-active-foreground: @foreground;
+    alternate-normal-background: @background;
+    alternate-normal-foreground: @foreground;
+    alternate-urgent-background: @background;
+    alternate-urgent-foreground: @foreground;
+
+    selected-active-background: {color1};
+    selected-active-foreground: @foreground;
+    selected-normal-background: {color2};
+    selected-normal-foreground: @foreground;
+    selected-urgent-background: {color3};
+    selected-urgent-foreground: @foreground;
+
+    background-color: @background;
+    background: {background};
+    foreground: {foreground};
+    border-color: @background;
+}}
+
+#configuration {{
+    	show-icons:                     true;
+    	disable-history:                false;
+    	fullscreen:                     false;
+	hide-scrollbar: 		true;
+	sidebar-mode: 			false;
+}}
+
+
+#window {{
+	font: "JetBrainsMono Nerd Font 11";
+    	background-color: @background;
+    	border: 1px;
+	border-color: {color3};
+    	width: 25%;
+	location: center;
+	x-offset: 0;
+	y-offset: 0;
+}}
+
+#mainbox {{
+    border: 0;
+    padding: 5px;
+}}
+
+#message {{
+    border: 2px 0px 0px;
+    border-color: @border-color;
+    padding: 1px;
+}}
+
+#textbox {{
+    text-color: @foreground;
+}}
+
+#inputbar {{
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}}
+
+#textbox-prompt-colon {{
+    expand: false;
+    margin: 0px 0.3em 0em 0em;
+    text-color: @normal-foreground;
+}}
+
+#listview {{
+    columns: 1;
+    lines: 5;
+    cycle: true;
+    spacing: 0%;
+    dynamic: true;
+    padding: 0px;
+    layout: vertical;
+}}
+
+#element {{
+    border: 0;
+    background-color: @background;
+    text-color: @foreground;
+    orientation: horizontal;
+    padding: 1% 0.5% 1% 0.5%;
+}}
+
+#element-text {{
+    background-color: @background;
+    expand: true;
+    horizontal-align: 0;
+    vertical-align: 0.5;
+    margin: 1% 1.25% 1% 1.25%;
+    text-color:       @foreground;
+}}
+
+#element.normal.normal {{
+    background-color: @background;
+    text-color: @foreground;
+}}
+
+#element.normal.urgent {{
+    background-color: @urgent-background;
+    text-color: @urgent-foreground;
+}}
+
+#element.normal.active {{
+    background-color: @active-background;
+    text-color: @active-foreground;
+}}
+
+#element.selected.normal {{
+    border: 2px;
+    border-color: {color2};
+    text-color: @foregorund;
+}}
+
+#element.selected.urgent {{
+    background-color: @selected-active-background;
+    text-color: @selected-urgent-foreground;
+}}
+
+#element.selected.active {{
+    background-color: @selected-active-background;
+    text-color: @selected-active-foreground;
+}}
+
+#inputbar {{
+    background-color: @background;
+    expand: false;
+    border: 0%;
+    border-radius: 0%;
+    spacing: 0;
+    text-color: @normal-foreground;
+    padding: 1.5%;
+    margin: 0%;
+    border: 0;
+}}
+
+#prompt {{
+    background-color: @background;
+    text-color: @normal-foreground;
+    enabled: 	true;
+    padding: 	0.30% 1% 0% -0.5%;
+    font:	"JetBrainsMono Nerd Font 11";
+}}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/wal.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#111620",
+        "foreground": "#bfc9c3",
+        "cursor": "#bfc9c3"
+    },
+    "colors": {
+        "color0": "#111620",
+        "color1": "#CA796D",
+        "color2": "#72837D",
+        "color3": "#A4887A",
+        "color4": "#5A769A",
+        "color5": "#789390",
+        "color6": "#B29986",
+        "color7": "#bfc9c3",
+        "color8": "#858c88",
+        "color9": "#CA796D",
+        "color10": "#72837D",
+        "color11": "#A4887A",
+        "color12": "#5A769A",
+        "color13": "#789390",
+        "color14": "#B29986",
+        "color15": "#bfc9c3"
+    }
+}

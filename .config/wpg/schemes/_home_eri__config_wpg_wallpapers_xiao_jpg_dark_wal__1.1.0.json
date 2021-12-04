@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/xiao.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a110f",
+        "foreground": "#dad7cc",
+        "cursor": "#dad7cc"
+    },
+    "colors": {
+        "color0": "#0a110f",
+        "color1": "#956E55",
+        "color2": "#A78F6F",
+        "color3": "#D4A06F",
+        "color4": "#647C84",
+        "color5": "#60A2A8",
+        "color6": "#9DA69C",
+        "color7": "#dad7cc",
+        "color8": "#98968e",
+        "color9": "#956E55",
+        "color10": "#A78F6F",
+        "color11": "#D4A06F",
+        "color12": "#647C84",
+        "color13": "#60A2A8",
+        "color14": "#9DA69C",
+        "color15": "#dad7cc"
+    }
+}

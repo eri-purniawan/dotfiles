@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/solar-city.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0d0b0d",
+        "foreground": "#a6d0d1",
+        "cursor": "#a6d0d1"
+    },
+    "colors": {
+        "color0": "#0d0b0d",
+        "color1": "#674C30",
+        "color2": "#054F4D",
+        "color3": "#254942",
+        "color4": "#046E6C",
+        "color5": "#926B40",
+        "color6": "#1F9595",
+        "color7": "#a6d0d1",
+        "color8": "#749192",
+        "color9": "#674C30",
+        "color10": "#054F4D",
+        "color11": "#254942",
+        "color12": "#046E6C",
+        "color13": "#926B40",
+        "color14": "#1F9595",
+        "color15": "#a6d0d1"
+    }
+}

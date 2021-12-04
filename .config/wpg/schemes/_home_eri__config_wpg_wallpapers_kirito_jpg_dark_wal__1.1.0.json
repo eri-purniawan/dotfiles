@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/kirito.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0C1213",
+        "foreground": "#cecfd0",
+        "cursor": "#cecfd0"
+    },
+    "colors": {
+        "color0": "#0C1213",
+        "color1": "#E14249",
+        "color2": "#6D847B",
+        "color3": "#797E81",
+        "color4": "#3BB09A",
+        "color5": "#68928D",
+        "color6": "#909395",
+        "color7": "#cecfd0",
+        "color8": "#909091",
+        "color9": "#E14249",
+        "color10": "#6D847B",
+        "color11": "#797E81",
+        "color12": "#3BB09A",
+        "color13": "#68928D",
+        "color14": "#909395",
+        "color15": "#cecfd0"
+    }
+}

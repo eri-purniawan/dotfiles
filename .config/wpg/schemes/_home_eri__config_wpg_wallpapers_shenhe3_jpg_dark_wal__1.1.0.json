@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/shenhe3.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0f1117",
+        "foreground": "#d2d9e1",
+        "cursor": "#d2d9e1"
+    },
+    "colors": {
+        "color0": "#0f1117",
+        "color1": "#406598",
+        "color2": "#566F93",
+        "color3": "#7290AE",
+        "color4": "#739FC9",
+        "color5": "#939EAF",
+        "color6": "#9BB1CB",
+        "color7": "#d2d9e1",
+        "color8": "#93979d",
+        "color9": "#406598",
+        "color10": "#566F93",
+        "color11": "#7290AE",
+        "color12": "#739FC9",
+        "color13": "#939EAF",
+        "color14": "#9BB1CB",
+        "color15": "#d2d9e1"
+    }
+}

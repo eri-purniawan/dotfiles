@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/wp3791040-anime-aesthetic-wallpapers.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#292444",
+        "foreground": "#cfdbf2",
+        "cursor": "#cfdbf2"
+    },
+    "colors": {
+        "color0": "#292444",
+        "color1": "#77ADF4",
+        "color2": "#AB92AB",
+        "color3": "#8DB4F6",
+        "color4": "#A9A0E1",
+        "color5": "#CFA4E2",
+        "color6": "#97C3F7",
+        "color7": "#cfdbf2",
+        "color8": "#9099a9",
+        "color9": "#77ADF4",
+        "color10": "#AB92AB",
+        "color11": "#8DB4F6",
+        "color12": "#A9A0E1",
+        "color13": "#CFA4E2",
+        "color14": "#97C3F7",
+        "color15": "#cfdbf2"
+    }
+}

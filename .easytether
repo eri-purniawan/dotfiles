@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo easytether-usb
+sudo dhcpcd tap-easytether

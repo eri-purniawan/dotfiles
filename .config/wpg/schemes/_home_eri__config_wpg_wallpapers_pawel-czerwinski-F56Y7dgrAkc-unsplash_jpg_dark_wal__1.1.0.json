@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/pawel-czerwinski-F56Y7dgrAkc-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#393c69",
+        "foreground": "#efe0eb",
+        "cursor": "#efe0eb"
+    },
+    "colors": {
+        "color0": "#393c69",
+        "color1": "#D1B5EA",
+        "color2": "#F3B9E2",
+        "color3": "#A6C2EE",
+        "color4": "#B8CAF7",
+        "color5": "#D1D0F3",
+        "color6": "#E6CDE4",
+        "color7": "#efe0eb",
+        "color8": "#a79ca4",
+        "color9": "#D1B5EA",
+        "color10": "#F3B9E2",
+        "color11": "#A6C2EE",
+        "color12": "#B8CAF7",
+        "color13": "#D1D0F3",
+        "color14": "#E6CDE4",
+        "color15": "#efe0eb"
+    }
+}
