@@ -5,8 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
+
 static char *font = "JetBrainsMono Nerd Font:style=Regular:pixelsize=15:antialias=true:autohint=true";
-//static char *font = "TerminessTTF Nerd Font:style=Medium:pixelsize=17:antialias=true:autohint=true";
+
+static char *font2[] = {	
+	"Braille:style=Regular:pixelsize=15:antialias=true:autohint=true",
+	"Iosevka Term,Iosevka Nerd Font Mono:style=Regular:pixelsize=15:antialias=true:autohint=true",};
 static int borderpx = 25;
 
 /*
@@ -61,7 +65,7 @@ static double maxlatency = 33;
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
  */
-static unsigned int blinktimeout = 800;
+static unsigned int blinktimeout = 500;
 
 /*
  * thickness of underline and bar cursors
