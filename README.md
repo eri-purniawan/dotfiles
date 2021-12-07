@@ -23,5 +23,5 @@ this repo contain of my window manager build such as dwm and qtile, and some var
 
 ### Installing
 
-* Note this build require to applay pywal for color scheme
+* Note this build require to apply pywal for color scheme
 * for pywal, there a scripts named ``updatepywal.sh`` this script use nitrogen to select wallpaper and applay it on the fly
