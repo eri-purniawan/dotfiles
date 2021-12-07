@@ -96,9 +96,6 @@ do
 	#launch xrdb
 	xdotool key super+F5
 
-	#restart qtile
-	xdotool key super+shift+r
-
 	#show wallpaper name
 	cat $HOME/.cache/wal/wal
     fi

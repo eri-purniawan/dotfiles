@@ -1,8 +1,8 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 2;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int gappx     = 8;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayspacing = 4;   /* systray spacing */
@@ -65,10 +65,11 @@ static char *colors[][3] = {
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
        [SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
        [SchemeTitle]  = { normfgcolor, normbgcolor,  normbordercolor },
+       [SchemeTray] = { normfgcolor, termcol0, termcol0 }, //systray background color
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "﬏", "", "", "", "阮"};
+static const char *tags[] = { "", "", "﬏", "", "", "", "ﭮ"};
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -83,10 +84,11 @@ static const Rule rules[] = {
 	{ "Lxappearance",NULL,	NULL,	0,		0,	1,		0,	-1 },
 	{ "libreoffice-startcenter",NULL,NULL,1 << 4,	1,	0,		0,	-1 },
 	{ "libreoffice-writer",NULL,NULL,1 << 4,	1,	0,		0,	-1 },
+	{ "Mendeley Desktop",	NULL,NULL,1 << 4,	1,	0,		0,	-1 },
 	{ "TelegramDesktop",NULL,NULL,	1 << 5,		1,	1,		0,	-1 },
-	{ "st-256color", NULL,	NULL,	0,		0,	0,		1,	-1 },
-	{ "st-256color", NULL,"ranger",	0,		0,	0,		1,	-1 },
-//	{ "discord",NULL,NULL,		1 << 6,		1,	0,		0,	-1 },
+	{ "St", 	NULL,	NULL,	0,		0,	0,		1,	-1 },
+	{ "St", 	NULL,"ranger",	0,		0,	0,		1,	-1 },
+	{ "discord",NULL,NULL,		1 << 6,		1,	0,		0,	-1 },
 };
 
 /* layout(s) */
@@ -129,6 +131,8 @@ static const char *termcmd[]  = { "st", NULL };
 static const char *rofi[] = { "/home/eri/suckless/dwm/scripts/rofi.sh", NULL };
 static const char *powermenu[] = { "/home/eri/suckless/dwm/scripts/powermenu.sh", NULL };
 static const char *lockscreen[] = { "betterlockscreen", "-l", "dimblur", NULL };
+static const char *print_scrn[] = { "/home/eri/suckless/dwm/scripts/screenshot.sh", NULL };
+static const char *mocp[] = { "st", "-e", "mocp", NULL };
 
 /* commands spawned when clicking statusbar, the mouse button pressed is exported as BUTTON */
 static const StatusCmd statuscmds[] = {
@@ -193,6 +197,10 @@ static Key keys[] = {
 	//powermenu
 	{ MODKEY,			XK_s,		spawn,	{.v = powermenu} },
 	{ MODKEY,			XK_x,		spawn,	{.v = lockscreen} },
+	//scrot
+	{ MODKEY,			XK_c,	spawn,	{.v = print_scrn} },
+	//mocp
+	{ MODKEY|ShiftMask,		XK_m,	spawn,		{.v = mocp} },
 };
 
 /* button definitions */

@@ -64,12 +64,23 @@ static const char unknown_str[] = "n/a";
  * wifi_essid          WiFi ESSID                      interface name (wlan0)
  */
 
+//powerline bar style
+/*static const struct arg args[] = {
+	// function format          argument *
+	{ run_command,	" \x04^C1^^B1^^C0^  %s",		"/home/eri/suckless/slstatus/scripts/arch_update.sh" },
+	{ run_command,  "\x06 ^C2^^B2^^C0^ %s",		"/home/eri/suckless/slstatus/scripts/volume.sh" },
+	{ netspeed_rx,	"\x05 ^C3^^B3^^C0^  %s ",		"tap-easytether" },
+	{ netspeed_tx,	"^C0^ %s",				"tap-easytether" },
+	{ ram_used,	"\x01 ^C4^^B4^^C0^ ﬙ %s",		NULL },
+	{ disk_free,	"\x02 ^C5^^B5^^C0^  %s",		"/" },
+	{ datetime, 	"\x03 ^C6^^B6^^C0^  %s ",	        "%A %d - %H:%M" },
+};*/
+
+//block bar style
 static const struct arg args[] = {
 	// function format          argument *
 	{ run_command,	" \x04^B1^^C0^  %s ",		"/home/eri/suckless/slstatus/scripts/arch_update.sh" },
 	{ separator,	"^B0^",				NULL },
-//	{ run_command,	"\x05 ^B2^^C0^ %s ",		"/home/eri/suckless/slstatus/scripts/net-check.sh" },
-//	{ separator,	"^B0^",				NULL },
 	{ run_command,  "\x06 ^B2^^C0^ %s ",		"/home/eri/suckless/slstatus/scripts/volume.sh" },
 	{ separator,	"^B0^",				NULL },
 	{ netspeed_rx,	"\x05 ^B3^^C0^  %s ",		"tap-easytether" },
@@ -81,15 +92,3 @@ static const struct arg args[] = {
 	{ separator,	"^B0^",				NULL },
 	{ datetime, 	"\x03 ^B6^^C0^  %s ",	        "%A %d - %H:%M" },
 };
-
-/*static const struct arg args[] = {
-	// function format          argument 
-	{ netspeed_rx,	"  \x03 \x01%s ",		"tap-easytether" },
-	{ netspeed_tx,	"\x03 \x01%s ",		"tap-easytether" },
-	{ run_command,	"  \x03 \x01%s ",		"/home/eri/suckless/slstatus/scripts/arch_update.sh" },
-	//{ run_command,	"   %s ",	"pamixer --get-volume-human" },
-	{ ram_used,	"  \x03﬙ \x01%s ",		NULL },
-	{ disk_free,	"  \x03 \x01%s ",		"/" },
-	//{ cpu_perc,	"  %s",		NULL },
-	{ datetime, 	"  \x03 \x01%s ",	        "%A %d - %H:%M" },
-};*/
