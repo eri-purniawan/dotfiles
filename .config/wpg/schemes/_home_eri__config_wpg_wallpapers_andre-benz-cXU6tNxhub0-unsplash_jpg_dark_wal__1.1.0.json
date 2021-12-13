@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/andre-benz-cXU6tNxhub0-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#091114",
+        "foreground": "#c1c7cd",
+        "cursor": "#c1c7cd"
+    },
+    "colors": {
+        "color0": "#091114",
+        "color1": "#51656A",
+        "color2": "#A6595A",
+        "color3": "#37628B",
+        "color4": "#5B768A",
+        "color5": "#6E8D99",
+        "color6": "#6B97C1",
+        "color7": "#c1c7cd",
+        "color8": "#878b8f",
+        "color9": "#51656A",
+        "color10": "#A6595A",
+        "color11": "#37628B",
+        "color12": "#5B768A",
+        "color13": "#6E8D99",
+        "color14": "#6B97C1",
+        "color15": "#c1c7cd"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/city_microchip.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0b0b",
+        "foreground": "#afbdc0",
+        "cursor": "#afbdc0"
+    },
+    "colors": {
+        "color0": "#0c0b0b",
+        "color1": "#374750",
+        "color2": "#3A5366",
+        "color3": "#4B5151",
+        "color4": "#525F6A",
+        "color5": "#95785D",
+        "color6": "#607786",
+        "color7": "#afbdc0",
+        "color8": "#7a8486",
+        "color9": "#374750",
+        "color10": "#3A5366",
+        "color11": "#4B5151",
+        "color12": "#525F6A",
+        "color13": "#95785D",
+        "color14": "#607786",
+        "color15": "#afbdc0"
+    }
+}

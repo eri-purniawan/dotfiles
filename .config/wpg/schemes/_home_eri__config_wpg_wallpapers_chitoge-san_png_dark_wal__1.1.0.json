@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/chitoge-san.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1a1a19",
+        "foreground": "#e7e5e2",
+        "cursor": "#e7e5e2"
+    },
+    "colors": {
+        "color0": "#1a1a19",
+        "color1": "#679BD9",
+        "color2": "#A0A0A2",
+        "color3": "#E8AD99",
+        "color4": "#F0DDA5",
+        "color5": "#A2B7CA",
+        "color6": "#94D0F4",
+        "color7": "#e7e5e2",
+        "color8": "#a1a09e",
+        "color9": "#679BD9",
+        "color10": "#A0A0A2",
+        "color11": "#E8AD99",
+        "color12": "#F0DDA5",
+        "color13": "#A2B7CA",
+        "color14": "#94D0F4",
+        "color15": "#e7e5e2"
+    }
+}

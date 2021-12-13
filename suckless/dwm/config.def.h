@@ -63,13 +63,19 @@ static char *termcolor[] = {
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
-       [SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
-       [SchemeTitle]  = { normfgcolor, normbgcolor,  normbordercolor },
+       [SchemeSel]  = { selbgcolor,  termcol0,  selbordercolor  },
+       [SchemeTitle]  = { normfgcolor, normbgcolor, normbordercolor },
        [SchemeTray] = { normfgcolor, termcol0, termcol0 }, //systray background color
+      /* [SchemeOcc] = { termcol3, normbgcolor, normbgcolor },*/
 };
 
 /* tagging */
 static const char *tags[] = { "", "", "﬏", "", "", "", "ﭮ"};
+
+static const unsigned int ulinepad	= 5;	/* horizontal padding between the underline and tag */
+static const unsigned int ulinestroke	= 2;	/* thickness / height of the underline */
+static const unsigned int ulinevoffset	= 0;	/* how far above the bottom of the bar the line should appear */
+static const int ulineall 		= 0;	/* 1 to show underline on all tags, 0 for just the active ones */
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -133,6 +139,10 @@ static const char *powermenu[] = { "/home/eri/suckless/dwm/scripts/powermenu.sh"
 static const char *lockscreen[] = { "betterlockscreen", "-l", "dimblur", NULL };
 static const char *print_scrn[] = { "/home/eri/suckless/dwm/scripts/screenshot.sh", NULL };
 static const char *mocp[] = { "st", "-e", "mocp", NULL };
+//volume
+static const char *upvol[]   = { "/home/eri/suckless/dwm/scripts/volume-button.sh", "4",     NULL };
+static const char *downvol[] = { "/home/eri/suckless/dwm/scripts/volume-button.sh", "5",     NULL };
+static const char *mutevol[] = { "/home/eri/suckless/dwm/scripts/volume-button.sh", "1",     NULL };
 
 /* commands spawned when clicking statusbar, the mouse button pressed is exported as BUTTON */
 static const StatusCmd statuscmds[] = {
@@ -147,6 +157,8 @@ static const char *statuscmd[] = { "/bin/sh", "-c", NULL, NULL };
 
 #include "nextprevtag.c"
 #include "movestack.c"
+#include <X11/XF86keysym.h>
+
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = rofi } },
@@ -201,6 +213,10 @@ static Key keys[] = {
 	{ MODKEY,			XK_c,	spawn,	{.v = print_scrn} },
 	//mocp
 	{ MODKEY|ShiftMask,		XK_m,	spawn,		{.v = mocp} },
+	//volume
+	{ MODKEY,                       XK_F10, spawn, {.v = downvol } },
+	{ MODKEY,                       XK_F9,  spawn, {.v = mutevol } },
+	{ MODKEY,                       XK_F11, spawn, {.v = upvol   } },
 };
 
 /* button definitions */

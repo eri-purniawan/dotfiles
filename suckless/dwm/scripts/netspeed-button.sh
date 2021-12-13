@@ -22,7 +22,7 @@ case $BUTTON in
 	1) notify-send --icon=Network-info "  Network" " -----------------
  Ip Address:   $(check_ip)
  Status    : $(check)" ;;
-	3) st -e bmon -p tap-easytether ;;
+	3) st -e tether ;;
 esac
 
 

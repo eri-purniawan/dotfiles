@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/nord_chitoge-san.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1c1f27",
+        "foreground": "#e1e3e5",
+        "cursor": "#e1e3e5"
+    },
+    "colors": {
+        "color0": "#1c1f27",
+        "color1": "#989FA8",
+        "color2": "#D2B591",
+        "color3": "#EBCC8F",
+        "color4": "#81A1C1",
+        "color5": "#B3BAC5",
+        "color6": "#94C4D3",
+        "color7": "#e1e3e5",
+        "color8": "#9d9ea0",
+        "color9": "#989FA8",
+        "color10": "#D2B591",
+        "color11": "#EBCC8F",
+        "color12": "#81A1C1",
+        "color13": "#B3BAC5",
+        "color14": "#94C4D3",
+        "color15": "#e1e3e5"
+    }
+}

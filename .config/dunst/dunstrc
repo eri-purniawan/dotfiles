@@ -1,6 +1,6 @@
 [colors]
-	background = "#111620"
-	foreground = "#bfc9c3"
+	background = "#0C1213"
+	foreground = "#cecfd0"
 
 [global]
     ### Display ###
@@ -8,7 +8,12 @@
     monitor = 0
     follow = mouse
 
-    geometry = "540x5-10+32"
+    #geometry = "540x5-10+32"
+    width = 300
+    height = 300
+    origin = top-right
+    offset = 8x30
+    
     indicate_hidden = yes
     shrink = yes
     transparency = 0
@@ -17,15 +22,14 @@
     padding = 12
     horizontal_padding = 12
     frame_width = 1
-    origin = top-right offset = 10x0
 
-    frame_color = "#A4887A"
-    separator_color = "#A4887A"
+    frame_color = "#6D847B"
+    separator_color = #6D847B
     sort = yes
     idle_threshold = 120
 
     ### Text ###
-    font = JetBrainsMono Nerd Font 10
+    font = JetBrainsMono Nerd Font 9
     line_height = 1
 
     markup = full
@@ -40,7 +44,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<b>%a %I \n %s </b>\n%b"
+    format = "<b> %a \n %s </b>\n%b"
     alignment = left
     show_age_threshold = 60
     word_wrap = yes
@@ -61,11 +65,11 @@
 
     ### Misc/Advanced ###
     dmenu = /usr/bin/rofi -show run -p dunst:
-    browser = /usr/bin/xdg-open
+    browser = /usr/bin/google-chrome-stable
     always_run_script = true
     title = Dunst
     class = Dunst
-    startup_notification = true
+    startup_notification = false
     force_xinerama = false
 
 [experimental]
@@ -89,5 +93,5 @@
 [urgency_critical]
     background = colors.background
     foreground = colors.foreground
-    frame_color = "#CA796D"
+    frame_color = "#E14249"
     timeout = 0

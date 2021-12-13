@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/black_ford_mustang.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0F0D12",
+        "foreground": "#c3c1ce",
+        "cursor": "#c3c1ce"
+    },
+    "colors": {
+        "color0": "#0F0D12",
+        "color1": "#583249",
+        "color2": "#3B445F",
+        "color3": "#514F69",
+        "color4": "#9A5865",
+        "color5": "#636B8F",
+        "color6": "#877F9C",
+        "color7": "#c3c1ce",
+        "color8": "#888790",
+        "color9": "#583249",
+        "color10": "#3B445F",
+        "color11": "#514F69",
+        "color12": "#9A5865",
+        "color13": "#636B8F",
+        "color14": "#877F9C",
+        "color15": "#c3c1ce"
+    }
+}

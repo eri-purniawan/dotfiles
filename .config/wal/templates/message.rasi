@@ -1,7 +1,7 @@
 *{{
     background-color:       {color0};
     text-color:             {color7};
-	font:				 	"JetBrainsMono Nerd Font 11";
+	font:				 	"JetBrainsMono Nerd Font 10";
 }}
 
 #window {{

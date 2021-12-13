@@ -6,12 +6,14 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-static char *font = "JetBrainsMono Nerd Font:style=Regular:pixelsize=15:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:style=Regular:pixelsize=14:antialias=true:autohint=true";
 
 static char *font2[] = {
-	"JetBrainsMono Nerd Font:style=Regular:pixelsize=15:antialias=true:autohint=true",
-	"Iosevka Term,Iosevka Nerd Font Mono:style=Regular:pixelsize=15:antialias=true:autohint=true",};
-static int borderpx = 25;
+	"JetBrainsMono Nerd Font:style=Regular:pixelsize=14:antialias=true:autohint=true",
+	"Iosevka Term,Iosevka Nerd Font Mono:style=Regular:pixelsize=15:antialias=true:autohint=true",
+	"JoyPixels:style=Regular:pixelsize=15:antialias=true:autohint=true",
+	};
+static int borderpx = 15;
 
 /*
  * What program is execed by st depends of these precedence rules:

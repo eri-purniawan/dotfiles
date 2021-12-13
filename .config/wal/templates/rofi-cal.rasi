@@ -26,6 +26,7 @@
     background-color: @background;
     font: "JetBrainsMono Nerd Font 11";
     border:           1;
+    border-color: {color2};
     padding:          3;
     width:            300px;
     location:               north east;

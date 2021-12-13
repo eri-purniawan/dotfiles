@@ -29,8 +29,6 @@
 #configuration {{
     	show-icons:                     true;
 	icon-theme: 			"Flatcolor";	
-	display-drun: "";
-	drun-display-format: "{{str}}";
     	disable-history:                false;
     	fullscreen:                     false;
 	hide-scrollbar: 		true;
@@ -39,10 +37,12 @@
 
 
 #window {{
-	font: "JetBrainsMono Nerd Font 10";
+	font: "JetBrainsMono Nerd Font 9";
+	display-drun: "";
+	drun-display-format: "{{name}}";
     	background-color: @background;
     	border: 1px;
-	border-color: {color3};
+	border-color: {color2};
     	width: 25%;
 	location: center;
 	x-offset: 0;
@@ -167,5 +167,5 @@
     text-color: @normal-foreground;
     enabled: 	true;
     padding: 	0.30% 1% 0% -0.5%;
-    font:	"JetBrainsMono Nerd Font 11";
+    font:	"JetBrainsMono Nerd Font 10";
 }}

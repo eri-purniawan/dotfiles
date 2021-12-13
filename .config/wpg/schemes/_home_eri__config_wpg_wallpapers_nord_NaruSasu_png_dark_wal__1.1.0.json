@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/eri/.config/wpg/wallpapers/nord_NaruSasu.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1a1e25",
+        "foreground": "#dacdcd",
+        "cursor": "#dacdcd"
+    },
+    "colors": {
+        "color0": "#1a1e25",
+        "color1": "#BE626A",
+        "color2": "#C66E6C",
+        "color3": "#AD8E74",
+        "color4": "#D39174",
+        "color5": "#5E7292",
+        "color6": "#6D82A8",
+        "color7": "#dacdcd",
+        "color8": "#988f8f",
+        "color9": "#BE626A",
+        "color10": "#C66E6C",
+        "color11": "#AD8E74",
+        "color12": "#D39174",
+        "color13": "#5E7292",
+        "color14": "#6D82A8",
+        "color15": "#dacdcd"
+    }
+}

@@ -9,7 +9,8 @@ Plug 'ap/vim-css-color'
 Plug 'vim-python/python-syntax'
 Plug 'scrooloose/nerdtree'                        
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'davidhalter/jedi-vim'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 syntax enable
@@ -21,10 +22,6 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 let g:python_highlight_all = 1
-
-" Python
-let g:jedi#environment_path = "/usr/bin/python3.9"
-let g:jedi#completions_enabled = 1
 
 set number
 set path+=**
