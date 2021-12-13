@@ -96,6 +96,9 @@ do
 	#launch xrdb
 	xdotool key super+F5
 
+	#restart qtile
+#	xdotool key super+shift+r
+
 	#show wallpaper name
 	cat $HOME/.cache/wal/wal
     fi
@@ -115,15 +118,14 @@ echo "[INFO] Set Lockscreen wallpaper..."
 betterlockscreen -u $(cat ~/.cache/wal/wal) --blur 1.0
 
 echo "[INFO] Generate GTK theme..."
-#wpg-install.sh -gid
 wpg -a $(cat $HOME/.cache/wal/wal) && wpg -s $(wpg -l | fzf )
 
 echo "[INFO] Set Slick greeter wallpaper..."
 slick-pywal
 
 #update st
-echo "[INFO] Update st terminal"
-cd suckless/st-0.8.4/
-sudo make clean install>/dev/null
+#echo "[INFO] Update st terminal"
+#cd suckless/st-0.8.4/
+#sudo make clean install>/dev/null
 
 echo "[INFO] Done"
